@@ -89,3 +89,35 @@
   font-size: 13px;
   font-weight: normal;
 }
+
+/* ===== MY SOLUTION ===== */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
+  grid-template-areas: 
+  "header header";
+
+}
+
+.header {
+  grid-area: header;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-items: start;
+}
+
+.menu {
+  justify-self: end;
+  align-self: center;
+}
+
+.menu ul { 
+  display: grid;
+  grid-template-columns: repeat(4, fit-content(40ch));
+  gap: 10rem;
+  padding: 0 5rem;
+  list-style: none;
+}
+
+
