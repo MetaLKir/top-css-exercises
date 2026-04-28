@@ -172,3 +172,7 @@
 .card {
   height: 200px;
 }
+
+.card > p {
+  padding: 0.5rem;
+}
