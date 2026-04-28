@@ -151,7 +151,8 @@
   gap: 50px;
 }
 
-.side-content {
+.side-content,
+.photo {
   display: grid;
   place-content: center;
 }
