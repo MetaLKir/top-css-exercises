@@ -136,7 +136,7 @@
   align-self: center;
 }
 
-.menu ul { 
+.menu > ul { 
   display: grid;
   grid-template-columns: repeat(4, fit-content(40ch));
   gap: 10rem;
@@ -149,5 +149,11 @@
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   gap: 50px;
+}
+/* ----- navigation bar ----- */
+.nav > ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
