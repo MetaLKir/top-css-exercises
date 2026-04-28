@@ -138,9 +138,9 @@
 
 .menu > ul { 
   display: grid;
-  grid-template-columns: repeat(4, fit-content(40ch));
+  grid-template-columns: repeat(4, minmax(min-content, 1fr));
   gap: 10rem;
-  padding: 0 5rem;
+  padding: 0 3rem;
   list-style: none;
 }
 
